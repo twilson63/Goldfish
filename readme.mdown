@@ -1,0 +1,27 @@
+# Project Goldfish
+
+Project Goldfish is a javascript library that creates a schema-less database adapter for google gears.
+
+## API
+
+### find_all
+
+    results = Goldfish('mydb').find_all("person");
+
+### find_by_id
+    
+    result = Goldfish('mydb').find_by_id("person", 1)
+
+### save
+     Goldfish('mydb').save("person", { id: 1, first_name: "Tom", last_name: "Wilson" });
+
+## Installation
+
+### Dependancies
+
+* [Google Gears](http://gears.google.com)
+* [JSON](http://www.json.org/json2.js)
+
+### Javascript
+
+* [Goldfish](http://s3.amazonaws.com/goldfish/goldfish.js)
