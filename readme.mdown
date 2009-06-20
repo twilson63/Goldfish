@@ -1,4 +1,4 @@
-# Project Goldfish
+# Project Goldfish 0.1
 
 Project Goldfish is a javascript library that creates a schema-less database adapter for google gears.
 
